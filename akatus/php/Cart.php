@@ -119,4 +119,10 @@ class Cart implements Countable, IteratorAggregate {
 	public function getTransaction() {
 		return $this->transaction;
 	}
+
+	public function setTransaction($transaction) {
+		$this->transaction = $transaction;
+	}
+
+
 }
